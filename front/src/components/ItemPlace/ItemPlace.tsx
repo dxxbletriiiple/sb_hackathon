@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
 import { ItemProps } from '../../@types';
->>>>>>> f2ce9a9271facf893a9ae8c468cfc9992fe765a6
 import styles from './ItemPlace.module.scss';
 
 export const ItemPlace = ({ imageUrl, title, description, isFavorite }: ItemProps): JSX.Element => {
