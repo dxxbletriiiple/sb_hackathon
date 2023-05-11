@@ -1,0 +1,21 @@
+@import '../../styles/animations.scss';
+
+.first {
+	background: #6750a4;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-weight: 400;
+		font-family: 'Aclonica';
+		line-height: 66px;
+		color: var(--white);
+		animation: first 1s forwards;
+		span {
+			font-family: 'Aclonica';
+			color: #272643;
+		}
+	}
+}

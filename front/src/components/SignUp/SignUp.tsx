@@ -9,12 +9,15 @@ export const SignUp = (): JSX.Element => {
 		<div className={st.signup}>
 			<img className={st.logo} src='http://placekitten.com/200/200' alt='logo' />
 			<div className={st.form}>
-				<Input icon={call} err type='number' placeholder='Номер телефона' />
+				<Input icon={call} type='tel' placeholder='Номер телефона' />
 				<Input icon={lock} type='password' placeholder='Пароль' />
 			</div>
 			<div className={st.btnwrap}>
 				<Button text='Войти' />
+				<div className={st.sign_up}>Зарегистрироваться</div>
+				<span className={st.or}>или</span>
 				<Button text='Войти как гость' clazz='outline' />
+				<div className={st.forgot}>Забыли пароль?</div>
 			</div>
 		</div>
 	);

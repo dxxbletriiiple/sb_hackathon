@@ -6,22 +6,29 @@
 	border: none;
 	outline: none;
 	color: var(--white);
-	background: var(--bg-light);
+	background: var(--main);
 	transition: 0.3s all ease;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 20px;
 	line-height: 24px;
 
 	&:focus-within {
-		border: 2px solid #2196f3;
+		border: 2px solid var(--blue);
 	}
 }
 
 .outline {
+	width: 133px;
+	height: 30px;
 	background: none;
 	outline: none;
-	border: 2px solid tomato;
+	border: 1px solid var(--grey);
+	color: var(--grey);
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 60px;
 	&:focus-within {
-		border: 2px solid tomato;
+		border: 1px solid var(--blue);
 	}
 }
