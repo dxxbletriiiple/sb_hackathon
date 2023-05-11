@@ -7,7 +7,7 @@ export interface InputInterface {
 export interface IButton {
 	text: string;
 	clazz?: string;
-	onClick?: () => void;
+	onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 export interface ItemProps {
