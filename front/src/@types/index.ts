@@ -9,3 +9,10 @@ export interface IButton {
 	clazz?: string;
 	onClick?: () => void;
 }
+
+export interface ItemProps {
+	imageUrl: string;
+	title: string;
+	description: string;
+	isFavorite: boolean;
+}
