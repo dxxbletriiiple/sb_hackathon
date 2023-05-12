@@ -1,16 +1,27 @@
+import { useEffect, useRef } from 'react';
 import FirstScreen from '../FirstScreen';
-import { SignUp } from '../SignUp/SignUp';
-import  {ItemPlace}  from '../ItemPlace/ItemPlace';
 import Footer from '../Footer/Footer';
-import {ConfrimPhoneScreen} from '../ConfrimPhoneScreen/ConfrimPhoneScreen'
+import ItemPlace from '../ItemPlace';
+import Register from '../Register';
 import './App.module.scss';
 
 function App(): JSX.Element {
+	const fullscreenRef = useRef<HTMLDivElement>(null);
+	useEffect(() => {
+		fetch('https://sbhackathon-production.up.railway.app/').then(console.log);
+	}, []);
+
+	const enterFullscreen = async () => {
+		const element = fullscreenRef.current;
+
+		if (element && element?.requestFullscreen) {
+			element.requestFullscreen();
+		}
+	};
+
 	return (
-		<div>
-			{/*<FirstScreen />*/}
-			{/* <ItemPlace imageUrl='http://placekitten.com/g/200/300' title='lorem' description='lorem ipsum' isFavorite /> */}
-			<ConfrimPhoneScreen phoneNumber="+7(999) 999-99-99"/>
+		<div className='app' ref={fullscreenRef}>
+			<FirstScreen />
 		</div>
 	);
 }
