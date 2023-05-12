@@ -8,7 +8,12 @@ import './App.module.scss';
 function App(): JSX.Element {
 	const fullscreenRef = useRef<HTMLDivElement>(null);
 	useEffect(() => {
-		fetch('https://sbhackathon-production.up.railway.app/').then(console.log);
+		fetch('https://sbhackathon-production.up.railway.app/', {
+			method: 'GET',
+			headers: {
+				'Access-Control-Allow-Origin': 'https://sb-hackathon-8v3kvduim-dxxbletriiiple.vercel.app',
+			},
+		}).then(console.log);
 	}, []);
 
 	const enterFullscreen = async () => {
