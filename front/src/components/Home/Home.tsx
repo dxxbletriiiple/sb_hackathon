@@ -1,11 +1,13 @@
-import { useState } from 'react';
+import { lazy, Suspense, useState } from 'react';
+import Footer from '../Footer/Footer';
 import Progress from '../Progress/Progress';
-import st from './Home.module.scss';
+import ItemPlace from '../ItemPlace';
 import map from '../../assets/map.svg';
 import list from '../../assets/list.svg';
-import ItemPlace from '../ItemPlace';
-import MapComp from '../MapComp/MapComp';
-import Footer from '../Footer/Footer';
+import st from './Home.module.scss';
+
+const MapComp = lazy(() => import('../MapComp/MapComp'));
+
 const Home = () => {
 	const [idx, setIdx] = useState(0);
 	const arr = [
@@ -40,7 +42,9 @@ const Home = () => {
 			</div>
 			<div className={st.content}>
 				{idx == 0 ? (
-					<MapComp />
+					<Suspense fallback={<div>Loading...</div>}>
+						<MapComp />
+					</Suspense>
 				) : (
 					new Array(6)
 						.fill(6)

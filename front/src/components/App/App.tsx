@@ -5,12 +5,12 @@ import { ConfrimPhoneScreen } from '../ConfrimPhoneScreen/ConfrimPhoneScreen';
 import FirstScreen from '../FirstScreen';
 import Register from '../Register';
 import { SignUp } from '../SignUp/SignUp';
-import './App.module.scss';
 import NotFound from '../../pages/404';
 import CameraScreen from '../CameraScreen/CameraScreen';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../../@types';
 import { getDataFromStortage } from '../../utils/getDataFromStortage';
+import './App.module.scss';
 
 const App = (): JSX.Element => {
 	const { isLogged } = useSelector((state: IRootState) => state);
