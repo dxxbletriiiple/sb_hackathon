@@ -1,0 +1,52 @@
+.home {
+	height: 100vh;
+	padding: 30px 12px 66px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	overflow: hidden;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+.title {
+	text-align: center;
+}
+.btns {
+	margin-top: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.btn {
+	padding: 10px;
+	width: 119px;
+	height: 42px;
+	border: 1px solid #c7c4dc;
+	border-radius: 10px;
+	background: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	span {
+		margin-left: 5px;
+	}
+}
+
+.settings {
+	width: 32px;
+	height: 32px;
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.content {
+	margin-top: 12px;
+	overflow: scroll;
+	height: calc(100vh - 180px);
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
