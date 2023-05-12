@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../Buttons';
 import Input from '../Input';
 import st from './Register.module.scss';
@@ -6,8 +7,10 @@ import call from '../../assets/call.svg';
 import acc from '../../assets/acc.svg';
 
 export const Register = (): JSX.Element => {
+	const navigate = useNavigate();
 	const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
+		navigate('/confirm');
 	};
 	return (
 		<div className={st.register}>

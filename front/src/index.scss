@@ -16,6 +16,9 @@
 	font-family: 'Inter', sans-serif;
 	text-decoration: none;
 	color: var(--white);
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 
 html,
@@ -105,6 +108,9 @@ video {
 	font-size: 100%;
 	font-family: 'Poppins', sans-serif;
 	vertical-align: baseline;
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 article,
 aside,

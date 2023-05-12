@@ -16,3 +16,13 @@ export interface ItemProps {
 	description: string;
 	isFavorite: boolean;
 }
+
+export interface IRootState {
+	isLogged: boolean;
+	isGuest: boolean;
+}
+
+export interface IProgress {
+	lvl: number;
+	points: [number, number];
+}
