@@ -10,6 +10,7 @@ function App(): JSX.Element {
 	useEffect(() => {
 		fetch('https://sbhackathon-production.up.railway.app/', {
 			method: 'GET',
+			mode: 'no-cors',
 			headers: {
 				'Access-Control-Allow-Origin': 'https://sb-hackathon-8v3kvduim-dxxbletriiiple.vercel.app',
 			},
