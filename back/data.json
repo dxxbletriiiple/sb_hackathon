@@ -1,0 +1,886 @@
+{
+	"items": [
+		{
+			"id": 10011630608,
+			"name": "Мусе Джалилю",
+			"historic": "memorial",
+			"coordinates": [49.1194431, 55.7901402]
+		},
+		{
+			"id": 9867793481,
+			"name": "Галимову М. И.",
+			"historic": "memorial",
+			"coordinates": [49.1185982, 55.7890664]
+		},
+		{
+			"id": 6410505450,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1049124, 55.8006781]
+		},
+		{
+			"id": 764556467,
+			"name": "Памятник зодчим Казанского кремля",
+			"historic": "memorial",
+			"coordinates": [49.1062434, 55.7994425]
+		},
+		{
+			"id": 2288261386,
+			"name": "Карета Екатерины II",
+			"historic": "memorial",
+			"coordinates": [49.1133556, 55.7914447]
+		},
+		{
+			"id": 5004472847,
+			"name": "Хади Такташ",
+			"historic": "memorial",
+			"coordinates": [49.1288788, 55.7774325]
+		},
+		{
+			"id": 3024134483,
+			"name": null,
+			"historic": "yes",
+			"coordinates": [49.1191715, 55.7777975]
+		},
+		{
+			"id": 4995139798,
+			"name": "ЛиАЗ-677",
+			"historic": "memorial",
+			"coordinates": [49.2074606, 55.7716413]
+		},
+		{
+			"id": 2788472653,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.0882563, 55.8225716]
+		},
+		{
+			"id": 1172763282,
+			"name": "А.В. Вишневскому",
+			"historic": "memorial",
+			"coordinates": [49.1378602, 55.7899565]
+		},
+		{
+			"id": 9838871591,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1357309, 55.7953316]
+		},
+		{
+			"id": 4120751192,
+			"name": "бабушке",
+			"historic": "memorial",
+			"coordinates": [49.1342615, 55.792226]
+		},
+		{
+			"id": 1983903862,
+			"name": "Медицинским работникам Татарстана, погибшим в Великой Отечественной войне 1941-1945 гг.",
+			"historic": "memorial",
+			"coordinates": [49.1383289, 55.7919303]
+		},
+		{
+			"id": 2952469921,
+			"name": "А.Н. Туполеву",
+			"historic": "memorial",
+			"coordinates": [49.1377251, 55.7919628]
+		},
+		{
+			"id": 3821865349,
+			"name": "Дуб в память о Мусе Джалиле",
+			"historic": "memorial",
+			"coordinates": [49.1238367, 55.7930439]
+		},
+		{
+			"id": 3819641751,
+			"name": "Памяти жертв политических репрессий",
+			"historic": "memorial",
+			"coordinates": [49.122086, 55.7941992]
+		},
+		{
+			"id": 2754274371,
+			"name": "Павшим за Советскую власть",
+			"historic": "monument",
+			"coordinates": [49.1530072, 55.7935192]
+		},
+		{
+			"id": 4306978099,
+			"name": "Крест",
+			"historic": "memorial",
+			"coordinates": [49.1108082, 55.7836928]
+		},
+		{
+			"id": 10879084805,
+			"name": "Мозаика с В. И. Лениным",
+			"historic": "memorial",
+			"coordinates": [49.1075612, 55.774981]
+		},
+		{
+			"id": 9575904367,
+			"name": "В этом доме жила Альфия Авзалова",
+			"historic": "memorial",
+			"coordinates": [49.1319375, 55.7768334]
+		},
+		{
+			"id": 10797343524,
+			"name": "Расстрелянным в годы политических репрессий",
+			"historic": "memorial",
+			"coordinates": [49.1375996, 55.7632922]
+		},
+		{
+			"id": 9842702695,
+			"name": "Ханееву В. П.",
+			"historic": "memorial",
+			"coordinates": [49.1322038, 55.7818139]
+		},
+		{
+			"id": 2377054882,
+			"name": "Шамовские ворота",
+			"historic": "city_gate",
+			"coordinates": [49.1370975, 55.7816463]
+		},
+		{
+			"id": 10138275912,
+			"name": "С. М. Киров",
+			"historic": "memorial",
+			"coordinates": [49.122631, 55.7559335]
+		},
+		{
+			"id": 4230159381,
+			"name": "Е. Г. Ласточкиной",
+			"historic": "memorial",
+			"coordinates": [49.1879473, 55.8108365]
+		},
+		{
+			"id": 1755959925,
+			"name": "Стела в честь Универсиады 2013",
+			"historic": "memorial",
+			"coordinates": [49.1641753, 55.7870651]
+		},
+		{
+			"id": 8712528707,
+			"name": "Москвич 407",
+			"historic": "memorial",
+			"coordinates": [49.1790983, 55.7529482]
+		},
+		{
+			"id": 4539348473,
+			"name": "Р.А. Зорге",
+			"historic": "memorial",
+			"coordinates": [49.1851225, 55.7633428]
+		},
+		{
+			"id": 6601434400,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1051776, 55.8006662]
+		},
+		{
+			"id": 2288077212,
+			"name": "Киров",
+			"historic": "memorial",
+			"coordinates": [49.1301507, 55.7913017]
+		},
+		{
+			"id": 9867793479,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1257458, 55.7851874]
+		},
+		{
+			"id": 9760243365,
+			"name": null,
+			"historic": "wayside_shrine",
+			"coordinates": [49.1275021, 55.7831795]
+		},
+		{
+			"id": 1699973093,
+			"name": "Карл Фукс",
+			"historic": "memorial",
+			"coordinates": [49.1299838, 55.7997517]
+		},
+		{
+			"id": 6420636212,
+			"name": "Барельеф в память о «группе Курмашева»",
+			"historic": "memorial",
+			"coordinates": [49.1081913, 55.7962573]
+		},
+		{
+			"id": 4945251730,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1422474, 55.7771519]
+		},
+		{
+			"id": 5809846446,
+			"name": "Сантехнику",
+			"historic": "memorial",
+			"coordinates": [49.1290703, 55.8204974]
+		},
+		{
+			"id": 2351821191,
+			"name": "Памяти погибших воинов 1941-1945 гг.",
+			"historic": "memorial",
+			"coordinates": [49.1848032, 55.7806292]
+		},
+		{
+			"id": 2952011587,
+			"name": "Мойдодыр",
+			"historic": "memorial",
+			"coordinates": [49.161787, 55.8274623]
+		},
+		{
+			"id": 1148615512,
+			"name": "М. Т. Нужин",
+			"historic": "memorial",
+			"coordinates": [49.1231229, 55.7910525]
+		},
+		{
+			"id": 966489790,
+			"name": "В.И. Ульянову-Ленину",
+			"historic": "memorial",
+			"coordinates": [49.1221891, 55.7911835]
+		},
+		{
+			"id": 1012203858,
+			"name": "Н. И. Лобачевскому",
+			"historic": "memorial",
+			"coordinates": [49.1204507, 55.7920925]
+		},
+		{
+			"id": 10804466704,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1310246, 55.7939988]
+		},
+		{
+			"id": 9107111832,
+			"name": "Миру-мир",
+			"historic": "memorial",
+			"coordinates": [49.1246106, 55.7975823]
+		},
+		{
+			"id": 2289638621,
+			"name": "Г. Тукай",
+			"historic": "memorial",
+			"coordinates": [49.1243323, 55.7953657]
+		},
+		{
+			"id": 4549455674,
+			"name": "Москвич 412",
+			"historic": "memorial",
+			"coordinates": [49.179115, 55.7528283]
+		},
+		{
+			"id": 2503480608,
+			"name": "В. И. Ленину",
+			"historic": "memorial",
+			"coordinates": [49.1387603, 55.7870771]
+		},
+		{
+			"id": 9978776577,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1294091, 55.7936575]
+		},
+		{
+			"id": 1141214285,
+			"name": "С.М. Кирову",
+			"historic": "memorial",
+			"coordinates": [49.1412139, 55.7945457]
+		},
+		{
+			"id": 2288077211,
+			"name": "Ленин",
+			"historic": "memorial",
+			"coordinates": [49.1302501, 55.7911533]
+		},
+		{
+			"id": 1983903857,
+			"name": "Водовозу",
+			"historic": "memorial",
+			"coordinates": [49.1403038, 55.793171]
+		},
+		{
+			"id": 4490929295,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.127689, 55.7304911]
+		},
+		{
+			"id": 3728226864,
+			"name": "Орден Победы",
+			"historic": "memorial",
+			"coordinates": [49.1806377, 55.7659977]
+		},
+		{
+			"id": 10822648437,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.06993, 55.8074738]
+		},
+		{
+			"id": 4752278791,
+			"name": "Жертвам Великой Отечественной войны",
+			"historic": "memorial",
+			"coordinates": [49.1407449, 55.7617321]
+		},
+		{
+			"id": 2354425570,
+			"name": "Памятник работникам горэлектротранспорта, павшим в боях за Родину",
+			"historic": "memorial",
+			"coordinates": [49.1432606, 55.7765053]
+		},
+		{
+			"id": 7930680211,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1855495, 55.8026813]
+		},
+		{
+			"id": 9775123426,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1259857, 55.7875665]
+		},
+		{
+			"id": 8234272800,
+			"name": "Ф.И. Халитову",
+			"historic": "memorial",
+			"coordinates": [49.1325939, 55.7868172]
+		},
+		{
+			"id": 1971250568,
+			"name": "Е. К. Завойскому",
+			"historic": "memorial",
+			"coordinates": [49.1187322, 55.7919028]
+		},
+		{
+			"id": 9867793482,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1184029, 55.7891632]
+		},
+		{
+			"id": 10011630607,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1192956, 55.7902095]
+		},
+		{
+			"id": 9871773745,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1142735, 55.7909656]
+		},
+		{
+			"id": 10121264070,
+			"name": "Бондаренко А. И.",
+			"historic": "memorial",
+			"coordinates": [49.1054707, 55.8259585]
+		},
+		{
+			"id": 2754274368,
+			"name": "Перечень организаций, принимавших участие в строительстве моста Миллениум",
+			"historic": "memorial",
+			"coordinates": [49.150579, 55.802097]
+		},
+		{
+			"id": 9776584484,
+			"name": "Учителям",
+			"historic": "memorial",
+			"coordinates": [49.1399575, 55.7961599]
+		},
+		{
+			"id": 2318283482,
+			"name": "Памятник трамваю и его водителю",
+			"historic": "memorial",
+			"coordinates": [49.1434422, 55.776639]
+		},
+		{
+			"id": 9903496844,
+			"name": "Chirukhin V.D Chirukhina A.",
+			"historic": "tomb",
+			"coordinates": [49.161617, 55.793375]
+		},
+		{
+			"id": 1142913208,
+			"name": "Н. Е. Ершову",
+			"historic": "memorial",
+			"coordinates": [49.1485907, 55.7929755]
+		},
+		{
+			"id": 2754274375,
+			"name": "Погибшему солдату",
+			"historic": "memorial",
+			"coordinates": [49.1525884, 55.7935512]
+		},
+		{
+			"id": 6601532956,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1026213, 55.7987722]
+		},
+		{
+			"id": 1577985990,
+			"name": "Памятник Благотворителю",
+			"historic": "memorial",
+			"coordinates": [49.1024332, 55.7986861]
+		},
+		{
+			"id": 9948897708,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1777472, 55.8047712]
+		},
+		{
+			"id": 4520406191,
+			"name": "Погибшим в ВОВ",
+			"historic": "memorial",
+			"coordinates": [49.1865058, 55.8074753]
+		},
+		{
+			"id": 4230057469,
+			"name": "Связистам",
+			"historic": "memorial",
+			"coordinates": [49.1797067, 55.7999308]
+		},
+		{
+			"id": 4230057470,
+			"name": "Воинам-связистам",
+			"historic": "memorial",
+			"coordinates": [49.1797872, 55.799976]
+		},
+		{
+			"id": 4176052191,
+			"name": "Воинам-пожарным, погибшим на боевом посту",
+			"historic": "memorial",
+			"coordinates": [49.0932024, 55.8151074]
+		},
+		{
+			"id": 1145710770,
+			"name": "Памятник М. Вахитову",
+			"historic": "memorial",
+			"coordinates": [49.1256812, 55.7875757]
+		},
+		{
+			"id": 9932661171,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1280075, 55.78398]
+		},
+		{
+			"id": 9105333718,
+			"name": "Психея на камне",
+			"historic": "memorial",
+			"coordinates": [49.1750582, 55.7986608]
+		},
+		{
+			"id": 5344731605,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1769778, 55.8044033]
+		},
+		{
+			"id": 9740178189,
+			"name": "Н. Э. Бауману",
+			"historic": "memorial",
+			"coordinates": [49.1138277, 55.7871515]
+		},
+		{
+			"id": 9210132184,
+			"name": "К. Г. Тинчурину",
+			"historic": "memorial",
+			"coordinates": [49.1072863, 55.775679]
+		},
+		{
+			"id": 9942640684,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1836413, 55.8059282]
+		},
+		{
+			"id": 2384952413,
+			"name": "Памятник учителю",
+			"historic": "memorial",
+			"coordinates": [49.081528, 55.8169574]
+		},
+		{
+			"id": 9980208093,
+			"name": "И. И. Шишкину",
+			"historic": "memorial",
+			"coordinates": [49.1139868, 55.7970925]
+		},
+		{
+			"id": 9995991224,
+			"name": "Рашид Вагапов",
+			"historic": "memorial",
+			"coordinates": [49.1406024, 55.7732456]
+		},
+		{
+			"id": 4945251729,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1427147, 55.7769275]
+		},
+		{
+			"id": 2619184963,
+			"name": "В. И. Ленину",
+			"historic": "memorial",
+			"coordinates": [49.1433296, 55.7424959]
+		},
+		{
+			"id": 9842702709,
+			"name": "В этом доме родился Мулланур Вахитов",
+			"historic": "memorial",
+			"coordinates": [49.1384574, 55.7787059]
+		},
+		{
+			"id": 1469171278,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.2068923, 55.7502973]
+		},
+		{
+			"id": 6083343644,
+			"name": "Шигабутдин Марджани",
+			"historic": "memorial",
+			"coordinates": [49.1186715, 55.7803592]
+		},
+		{
+			"id": 6967160359,
+			"name": "Сыртлановой",
+			"historic": "memorial",
+			"coordinates": [49.1956679, 55.7531113]
+		},
+		{
+			"id": 1148615601,
+			"name": "А.М. Бутлеров",
+			"historic": "memorial",
+			"coordinates": [49.1242888, 55.7930443]
+		},
+		{
+			"id": 5995831669,
+			"name": "Рудольф Нуриев",
+			"historic": "memorial",
+			"coordinates": [49.1244751, 55.7945986]
+		},
+		{
+			"id": 1042262704,
+			"name": "Шамилю Усманову",
+			"historic": "memorial",
+			"coordinates": [49.1222439, 55.7965715]
+		},
+		{
+			"id": 2288083504,
+			"name": "Баки Урманче",
+			"historic": "memorial",
+			"coordinates": [49.1363363, 55.7966445]
+		},
+		{
+			"id": 5340691021,
+			"name": "Рустем Яхин",
+			"historic": "memorial",
+			"coordinates": [49.1273487, 55.7973332]
+		},
+		{
+			"id": 2288083505,
+			"name": "Г.Р. Державину",
+			"historic": "memorial",
+			"coordinates": [49.1340542, 55.7935837]
+		},
+		{
+			"id": 892767318,
+			"name": "В. И. Ленину",
+			"historic": "memorial",
+			"coordinates": [49.1250521, 55.7965162]
+		},
+		{
+			"id": 6982131585,
+			"name": "Рихард Зорге",
+			"historic": "memorial",
+			"coordinates": [49.2056825, 55.7507635]
+		},
+		{
+			"id": 3292801557,
+			"name": "Кот Казанский",
+			"historic": "memorial",
+			"coordinates": [49.1123314, 55.7921706]
+		},
+		{
+			"id": 9740178199,
+			"name": "В этом доме жил Г. Г. Ильясов",
+			"historic": "memorial",
+			"coordinates": [49.1165979, 55.7852153]
+		},
+		{
+			"id": 9066673793,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1737828, 55.7592301]
+		},
+		{
+			"id": 1172762716,
+			"name": "Д.М. Карбышев",
+			"historic": "memorial",
+			"coordinates": [49.178818, 55.7555619]
+		},
+		{
+			"id": 2482484633,
+			"name": "Д. М. Карбышеву",
+			"historic": "memorial",
+			"coordinates": [49.1783449, 55.7642785]
+		},
+		{
+			"id": 764556432,
+			"name": "Спасо-Преображенский собор",
+			"historic": "ruins",
+			"coordinates": [49.1067783, 55.7968324]
+		},
+		{
+			"id": 2503782285,
+			"name": "Кул Гали",
+			"historic": "memorial",
+			"coordinates": [49.122818, 55.7834462]
+		},
+		{
+			"id": 1145710203,
+			"name": "Л. Н. Гумилёву",
+			"historic": "memorial",
+			"coordinates": [49.1225294, 55.7868705]
+		},
+		{
+			"id": 4752278790,
+			"name": "Воинам, павшим за Родину",
+			"historic": "memorial",
+			"coordinates": [49.141087, 55.7613817]
+		},
+		{
+			"id": 1716034665,
+			"name": "В. М. Бехтереву",
+			"historic": "memorial",
+			"coordinates": [49.1428836, 55.7897408]
+		},
+		{
+			"id": 10723426029,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.116151, 55.7914477]
+		},
+		{
+			"id": 8398335297,
+			"name": "Памятник погибшим сотрудникам органов внутренних дел",
+			"historic": "memorial",
+			"coordinates": [49.1712002, 55.734949]
+		},
+		{
+			"id": 1110717751,
+			"name": "Л. Н. Толстому",
+			"historic": "memorial",
+			"coordinates": [49.139328, 55.7954968]
+		},
+		{
+			"id": 2822999392,
+			"name": "Жителям Татарстана — участникам ликвидации последствий катастрофы на Чернобыльской АЭС",
+			"historic": "memorial",
+			"coordinates": [49.1328681, 55.8275228]
+		},
+		{
+			"id": 1141214313,
+			"name": "В.А. Котельникову",
+			"historic": "memorial",
+			"coordinates": [49.1423178, 55.7941753]
+		},
+		{
+			"id": 1172762528,
+			"name": "М. Горькому",
+			"historic": "memorial",
+			"coordinates": [49.1423858, 55.7931919]
+		},
+		{
+			"id": 1145710437,
+			"name": "Ф. И. Шаляпину",
+			"historic": "memorial",
+			"coordinates": [49.1197433, 55.7880898]
+		},
+		{
+			"id": 4103489957,
+			"name": "Служим России — служим закону",
+			"historic": "memorial",
+			"coordinates": [49.1209522, 55.7957053]
+		},
+		{
+			"id": 2289638620,
+			"name": "А.С. Пушкин",
+			"historic": "memorial",
+			"coordinates": [49.1250551, 55.7953011]
+		},
+		{
+			"id": 4225629271,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1314269, 55.7859783]
+		},
+		{
+			"id": 4322819896,
+			"name": "Митрополиту Андриану",
+			"historic": "memorial",
+			"coordinates": [49.1309958, 55.7828492]
+		},
+		{
+			"id": 3024134482,
+			"name": null,
+			"historic": "yes",
+			"coordinates": [49.1196712, 55.7781946]
+		},
+		{
+			"id": 1983990165,
+			"name": "В память о журналистах и полиграфистах защищавших родину в ВОВ",
+			"historic": "memorial",
+			"coordinates": [49.1012017, 55.8145479]
+		},
+		{
+			"id": 4884044406,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1074263, 55.8276424]
+		},
+		{
+			"id": 4069637955,
+			"name": "В. И. Ленину",
+			"historic": "memorial",
+			"coordinates": [49.1888903, 55.7688742]
+		},
+		{
+			"id": 4549455673,
+			"name": "Газ 3307",
+			"historic": "memorial",
+			"coordinates": [49.1791418, 55.7526532]
+		},
+		{
+			"id": 5628064911,
+			"name": "Зил",
+			"historic": "memorial",
+			"coordinates": [49.1791542, 55.7525367]
+		},
+		{
+			"id": 6236628724,
+			"name": null,
+			"historic": "aircraft",
+			"coordinates": [49.1192454, 55.7742604]
+		},
+		{
+			"id": 4656532742,
+			"name": "Гиршман Яков Моисеевич",
+			"historic": "memorial",
+			"coordinates": [49.1613252, 55.7889553]
+		},
+		{
+			"id": 8398364569,
+			"name": "Памятник курсантам",
+			"historic": "memorial",
+			"coordinates": [49.1710607, 55.7344114]
+		},
+		{
+			"id": 7959420686,
+			"name": "Мустай Карим",
+			"historic": "memorial",
+			"coordinates": [49.149432, 55.7633132]
+		},
+		{
+			"id": 5865370890,
+			"name": "T-34-85",
+			"historic": "memorial",
+			"coordinates": [49.1556323, 55.7577195]
+		},
+		{
+			"id": 10809139306,
+			"name": "Державину Г. Р.",
+			"historic": "memorial",
+			"coordinates": [49.1435026, 55.7564076]
+		},
+		{
+			"id": 10758445655,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1274526, 55.7834694]
+		},
+		{
+			"id": 4235766115,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1046145, 55.7989674]
+		},
+		{
+			"id": 1153018102,
+			"name": "Памятник Мусе Джалилю",
+			"historic": "memorial",
+			"coordinates": [49.1085208, 55.7961164]
+		},
+		{
+			"id": 3168029386,
+			"name": "Казанский кремль",
+			"historic": "castle",
+			"coordinates": [49.1061747, 55.7989416]
+		},
+		{
+			"id": 3018049022,
+			"name": "Ф. З. Яруллину",
+			"historic": "memorial",
+			"coordinates": [49.0966469, 55.8120452]
+		},
+		{
+			"id": 9923021157,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.0939545, 55.8142656]
+		},
+		{
+			"id": 10220224083,
+			"name": "Улица Лушникова",
+			"historic": "memorial",
+			"coordinates": [49.0873038, 55.8214489]
+		},
+		{
+			"id": 2449478018,
+			"name": "А.Е. Арбузову",
+			"historic": "memorial",
+			"coordinates": [49.1859055, 55.8141651]
+		},
+		{
+			"id": 9506383549,
+			"name": "Пётр и Феврония",
+			"historic": "memorial",
+			"coordinates": [49.1184199, 55.8189809]
+		},
+		{
+			"id": 7897298258,
+			"name": null,
+			"historic": "memorial",
+			"coordinates": [49.1687483, 55.7931368]
+		},
+		{
+			"id": 2989773646,
+			"name": "Донору",
+			"historic": "memorial",
+			"coordinates": [49.2182021, 55.7645781]
+		},
+		{
+			"id": 4785654290,
+			"name": "Садри Максуди",
+			"historic": "memorial",
+			"coordinates": [49.110475, 55.8171378]
+		},
+		{
+			"id": 1149020757,
+			"name": "Салих Сайдашев",
+			"historic": "memorial",
+			"coordinates": [49.1174609, 55.7845611]
+		},
+		{
+			"id": 1185938872,
+			"name": "Габдулла Тукай",
+			"historic": "memorial",
+			"coordinates": [49.1200446, 55.7852342]
+		}
+	]
+}
