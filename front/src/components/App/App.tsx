@@ -1,14 +1,10 @@
 import { useEffect, useRef } from 'react';
 import FirstScreen from '../FirstScreen';
 import Footer from '../Footer/Footer';
-<<<<<<< HEAD
-import MapComp from '../MapComp/MapComp';
-import {ConfrimPhoneScreen} from '../ConfrimPhoneScreen/ConfrimPhoneScreen'
-=======
 import ItemPlace from '../ItemPlace';
 import Register from '../Register';
->>>>>>> e153b804a46fff782410cccbaef1c1ba920e1381
 import './App.module.scss';
+import CameraScreen from '../CameraScreen/CameraScreen';
 
 function App(): JSX.Element {
 	const fullscreenRef = useRef<HTMLDivElement>(null);
@@ -31,16 +27,9 @@ function App(): JSX.Element {
 	};
 
 	return (
-<<<<<<< HEAD
-		<div>
-			{/*<FirstScreen />*/}
-			{/* <ItemPlace imageUrl='http://placekitten.com/g/200/300' title='lorem' description='lorem ipsum' isFavorite /> */}
-			{/* <ConfrimPhoneScreen phoneNumber="+7(999) 999-99-99"/> */}
-			<MapComp/>
-=======
 		<div className='app' ref={fullscreenRef}>
-			<FirstScreen />
->>>>>>> e153b804a46fff782410cccbaef1c1ba920e1381
+			{/* <FirstScreen /> */}
+			<CameraScreen/>
 		</div>
 	);
 }
