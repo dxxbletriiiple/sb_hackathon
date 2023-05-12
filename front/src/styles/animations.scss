@@ -29,3 +29,12 @@
 		font-size: 58px;
 	}
 }
+
+@keyframes progress {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 160px;
+	}
+}
