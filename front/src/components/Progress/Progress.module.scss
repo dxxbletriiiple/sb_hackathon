@@ -1,0 +1,43 @@
+@import '../../styles/animations.scss';
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.progres_txt {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.lvl {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+	color: var(--grey);
+}
+.points {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: var(--grey);
+}
+.progress {
+	background: var(--grey);
+	width: 100%;
+	height: 16px;
+	border-radius: 18px;
+	margin-top: 10px;
+	z-index: 1;
+}
+.body {
+	height: 16px;
+	background: #4d4b71;
+	border-radius: 18px;
+	animation: progress 1s forwards;
+	z-index: 2;
+}
