@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const whitelist = ['*'];
+const whitelist = ['https://sb-hackathon-28q49o88u-dxxbletriiiple.vercel.app'];
 const corsOptions = {
 	origin: function (origin, callback) {
 		if (whitelist.indexOf(origin) !== -1) {
