@@ -9,7 +9,13 @@ const initialState: IRootState = {
 export const mapsSlice = createSlice({
 	name: 'maps',
 	initialState,
-	reducers: {},
+	reducers: {
+		onLogin: (state) => {
+			console.log('qwqw');
+			localStorage.setItem('isLogged', 'true');
+			state.isLogged = true;
+		},
+	},
 });
-
+export const { onLogin } = mapsSlice.actions;
 export default mapsSlice.reducer;

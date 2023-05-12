@@ -1,48 +1,23 @@
-import React, { useRef, useState } from 'react';
-
-function CameraCapture() {
-  const videoRef = useRef(null);
-  const [imageSrc, setImageSrc] = useState(null);
-  const [selectedFile, setSelectedFile] = useState(null);
-
-  const hasGetUserMedia = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
-
-  const handleUserMediaError = (error) => {
-    console.error('Error accessing media devices.', error);
-  };
-
-  const constraints = {
-    audio: false,
-    video: true,
-  };
-
-  const takePicture = async () => {
-    if (videoRef.current) {
-      const canvas = document.createElement('canvas');
-      canvas.width = videoRef.current.videoWidth;
-      canvas.height = videoRef.current.videoHeight;
-      const context = canvas.getContext('2d');
-      context.drawImage(videoRef.current, 0, 0, canvas.width, canvas.height);
-      canvas.toBlob((blob) => {
-        const imageUrl = URL.createObjectURL(blob);
-        setSelectedFile(blob);
-        setImageSrc(imageUrl);
-      }, 'image/jpeg', 1);
-    }
-  };
-
-  if (!hasGetUserMedia) {
-    return <div>MediaDevices API not supported</div>;
-  }
-
-  return (
-    <div>
-      <video ref={videoRef} autoPlay />
-      <button onClick={takePicture}>Take Picture</button>
-      {selectedFile && <p>Selected file: {selectedFile.name}</p>}
-      {imageSrc && <img src={imageSrc} alt="captured" />}
-    </div>
-  );
+.camera {
+	width: 100%;
+	height: calc(100vh - 77px);
+	padding: 12px;
+	position: relative;
+}
+.img {
+	width: 100%;
+	height: calc(100vh - 205px);
+	object-fit: cover;
 }
 
-export default CameraCapture;
+.btn {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: none;
+	border: 1px solid var(--white);
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+}

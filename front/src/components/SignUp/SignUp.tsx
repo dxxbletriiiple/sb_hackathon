@@ -4,9 +4,15 @@ import call from '../../assets/call.svg';
 import lock from '../../assets/lock.svg';
 import { Button } from '../Buttons';
 import { Link, useNavigate } from 'react-router-dom';
+import { onLogin } from '../../store/reducers';
 
 export const SignUp = (): JSX.Element => {
 	const nav = useNavigate();
+
+	const handleLogin = () => {
+		onLogin();
+		nav('/home');
+	};
 	return (
 		<div className={st.signup}>
 			<img className={st.logo} src='http://placekitten.com/200/200' alt='logo' />
@@ -15,7 +21,7 @@ export const SignUp = (): JSX.Element => {
 				<Input icon={lock} type='password' placeholder='Пароль' />
 			</div>
 			<div className={st.btnwrap}>
-				<Button text='Войти' onClick={() => nav('/home')} />
+				<Button text='Войти' onClick={handleLogin} />
 
 				<Link to='/register'>
 					<div className={st.sign_up}>Зарегистрироваться</div>

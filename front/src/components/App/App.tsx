@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, memo, useRef } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import Home from '../Home/Home';
 import { ConfrimPhoneScreen } from '../ConfrimPhoneScreen/ConfrimPhoneScreen';
@@ -7,27 +7,36 @@ import Register from '../Register';
 import { SignUp } from '../SignUp/SignUp';
 import './App.module.scss';
 import NotFound from '../../pages/404';
+import CameraScreen from '../CameraScreen/CameraScreen';
+import { useSelector } from 'react-redux';
+import { IRootState } from '../../@types';
+import { getDataFromStortage } from '../../utils/getDataFromStortage';
 
 const App = (): JSX.Element => {
-	const navigate = useNavigate();
+	const { isLogged } = useSelector((state: IRootState) => state);
 	const fullscreenRef = useRef<HTMLDivElement>(null);
+	const navigate = useNavigate();
+
 	useEffect(() => {
-		fetch('https://sbhackathon-production.up.railway.app/', {
-			method: 'GET',
-			mode: 'no-cors',
-			headers: {
-				'Access-Control-Allow-Origin': 'https://sb-hackathon.vercel.app/',
-			},
-		}).then((r) => {
-			if (!r.ok) {
-				return navigate('/login');
-			}
-		});
+		//enterFullscreen();
+		getDataFromStortage();
+		if (!isLogged) {
+			fetch('https://sbhackathon-production.up.railway.app/', {
+				method: 'GET',
+				mode: 'no-cors',
+				headers: {
+					'Access-Control-Allow-Origin': 'https://sb-hackathon.vercel.app/',
+				},
+			}).then((r) => {
+				if (!r.ok && !isLogged) {
+					return navigate('/login');
+				}
+			});
+		}
 	}, []);
 
 	const enterFullscreen = async () => {
 		const element = fullscreenRef.current;
-
 		if (element && element?.requestFullscreen) {
 			element.requestFullscreen();
 		}
@@ -41,6 +50,7 @@ const App = (): JSX.Element => {
 				<Route path='/register' element={<Register />} />
 				<Route path='/confirm' element={<ConfrimPhoneScreen />} />
 				<Route path='/home' element={<Home />} />
+				<Route path='/camera' element={<CameraScreen />} />
 				<Route path='*' element={<NotFound />} />
 			</Routes>
 		</div>
